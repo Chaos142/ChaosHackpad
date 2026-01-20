@@ -22,7 +22,7 @@ driver = SSD1306(i2c=bus, device_address=0x3C)
 display = Display(
     display=driver,
     width=128,
-    height=64,
+    height=32,
     dim_time=10,
     dim_target=0.1,
     off_time=600,
@@ -31,12 +31,7 @@ display = Display(
 
 # star design
 display.entries = [
-    TextEntry(text='.', x=5,   y=5),
-    TextEntry(text='+', x=115, y=8),
-    TextEntry(text='chaos', x=64, y=28, x_anchor="M"),
-    TextEntry(text='.', x=20,  y=50),
-    TextEntry(text='*', x=100, y=45),
-    TextEntry(text='.', x=55,  y=55),
+    TextEntry(text='chaos', x=64, y=10, x_anchor="M"),
 ]
 keyboard.extensions.append(display)
 

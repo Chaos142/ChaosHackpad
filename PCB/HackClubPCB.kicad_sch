@@ -1749,131 +1749,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -2219,6 +2094,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 106.68) (xy 195.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0708c315-2748-43cd-bbe1-bf4df0194435")
+	)
+	(wire
+		(pts
 			(xy 72.39 55.88) (xy 104.14 55.88)
 		)
 		(stroke
@@ -2246,6 +2131,16 @@
 			(type default)
 		)
 		(uuid "182f775f-57e9-4848-9591-df1e83184f17")
+	)
+	(wire
+		(pts
+			(xy 193.04 106.68) (xy 193.04 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f29fca-84a3-4f38-86a9-533ebdd4dfac")
 	)
 	(wire
 		(pts
@@ -2296,6 +2191,16 @@
 			(type default)
 		)
 		(uuid "4e625395-cbcd-4a73-806f-addec4b2955a")
+	)
+	(wire
+		(pts
+			(xy 195.58 88.9) (xy 209.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "520656d1-fa47-417b-a48b-38fbe23f5d8f")
 	)
 	(wire
 		(pts
@@ -2499,16 +2404,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 88.9) (xy 209.55 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b26234cf-ee68-4444-b5cf-3d0e4acafbc5")
-	)
-	(wire
-		(pts
 			(xy 232.41 43.18) (xy 257.81 43.18)
 		)
 		(stroke
@@ -2526,16 +2421,6 @@
 			(type default)
 		)
 		(uuid "b6c36f7d-b12c-4c16-aa30-28f1b0a6e06b")
-	)
-	(wire
-		(pts
-			(xy 187.96 92.71) (xy 209.55 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca1d7af2-2959-4f54-9702-1db4cc609ffb")
 	)
 	(wire
 		(pts
@@ -2576,6 +2461,16 @@
 			(type default)
 		)
 		(uuid "e968e227-70fd-4e48-a1f5-83d066e9e301")
+	)
+	(wire
+		(pts
+			(xy 193.04 92.71) (xy 209.55 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb5ab550-5227-42d4-bccf-f96e523942cb")
 	)
 	(wire
 		(pts
@@ -2626,16 +2521,6 @@
 			(type default)
 		)
 		(uuid "f7db10c0-7063-4599-ae06-9bab8c382ec8")
-	)
-	(wire
-		(pts
-			(xy 185.42 92.71) (xy 185.42 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9d3e64b-c532-4496-8739-539f10387d42")
 	)
 	(wire
 		(pts
@@ -3074,17 +2959,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 245.11 81.28 270)
+		(lib_id "power:+5V")
+		(at 245.11 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0114f076-2859-4b7a-8529-3830d38baff5")
+		(uuid "00c2f58c-6d96-43b1-b91e-7daa39f6de09")
 		(property "Reference" "#PWR01"
-			(at 241.3 81.28 0)
+			(at 241.3 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3092,8 +2977,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 248.92 81.2799 90)
+		(property "Value" "+5V"
+			(at 248.92 73.6599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3102,7 +2987,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 81.28 0)
+			(at 245.11 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3111,7 +2996,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 81.28 0)
+			(at 245.11 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3119,8 +3004,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 245.11 81.28 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 245.11 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3129,7 +3014,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "448cbe2a-3945-4286-9c93-3466bd3bb51d")
+			(uuid "16f8b6c7-6036-4550-ac10-2ac2b1082cc8")
 		)
 		(instances
 			(project ""
@@ -4074,7 +3959,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Module:MOUDLE14P-XIAO-DIP-SMD"
+		(property "Footprint" "Seeed Studio XIAO Series Library:XIAO-RP2040-DIP"
 			(at 227.838 100.838 0)
 			(effects
 				(font
@@ -4512,7 +4397,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 92.71 180)
+		(at 187.96 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4521,7 +4406,7 @@
 		(fields_autoplaced yes)
 		(uuid "86a0a572-c0aa-4ea6-a6b5-984ed7b9e992")
 		(property "Reference" "#PWR02"
-			(at 180.34 86.36 0)
+			(at 187.96 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,7 +4415,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 87.63 0)
+			(at 187.96 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,7 +4423,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 92.71 0)
+			(at 187.96 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4547,7 +4432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 92.71 0)
+			(at 187.96 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4556,7 +4441,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 92.71 0)
+			(at 187.96 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4578,7 +4463,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 182.88 92.71 0)
+		(at 190.5 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4587,7 +4472,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad32d872-e2aa-42c2-bf98-6c96075f1e9a")
 		(property "Reference" "#PWR04"
-			(at 182.88 96.52 0)
+			(at 190.5 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4596,7 +4481,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 182.88 87.63 0)
+			(at 190.5 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4604,7 +4489,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 92.71 0)
+			(at 190.5 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4613,7 +4498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 92.71 0)
+			(at 190.5 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4622,7 +4507,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 182.88 92.71 0)
+			(at 190.5 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4644,7 +4529,7 @@
 	)
 	(symbol
 		(lib_id "SSD1306-128x64_OLED:SSD1306")
-		(at 184.15 101.6 0)
+		(at 191.77 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4653,7 +4538,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4207d11-7a4c-49fe-a4dc-ced551e30bb9")
 		(property "Reference" "Brd1"
-			(at 191.77 100.3299 0)
+			(at 199.39 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4662,7 +4547,7 @@
 			)
 		)
 		(property "Value" "SSD1306"
-			(at 191.77 102.8699 0)
+			(at 199.39 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4671,7 +4556,7 @@
 			)
 		)
 		(property "Footprint" "KiCad-SSD1306-0.91-OLED-4pin-128x32:SSD1306-0.91-OLED-4pin-128x32"
-			(at 184.15 95.25 0)
+			(at 191.77 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4680,7 +4565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 95.25 0)
+			(at 191.77 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4689,7 +4574,7 @@
 			)
 		)
 		(property "Description" "SSD1306 OLED"
-			(at 184.15 101.6 0)
+			(at 191.77 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
