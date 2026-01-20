@@ -1,7 +1,7 @@
 # Chaos's Hackpad
 
 ## Features
-- 128x64 OLED display
+- 128x32 OLED display
 - EC11 rotary encoder
 - 4 SK6812 RGB LEDs
 - 7 MX-Style keys
