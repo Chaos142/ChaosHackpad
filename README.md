@@ -10,15 +10,15 @@
 Screws together using 4 M3 screws.   
 Comes in two pieces - the base and the top.  
 
-![CAD](assets/hackpad.jpeg)  
+![CAD](media/cad.png)  
 
 ## PCB
 
-![PCB](assets/pcb.jpeg)
+![PCB](media/pcb.png)
 
 ### Schematic
 
-![Schematic](assets/schematic.jpeg)
+![Schematic](media/schematic.png)
 
 ## BOM
 - 7x Cherry MX Switches
