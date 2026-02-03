@@ -3,8 +3,9 @@
 ## Features
 - 128x32 OLED display
 - EC11 rotary encoder
-- 4 SK6812 RGB LEDs
+- 4 SK6812 RGB LEDs (backlighting)
 - 7 MX-Style keys
+- WASD and volume controls (firmware will be updated in the future)
 
 ## CAD Model:
 Screws together using 4 M3 screws.   
@@ -21,11 +22,7 @@ Comes in two pieces - the base and the top.
 ![Schematic](media/schematic.png)
 
 ## BOM
-- 7x Cherry MX Switches
-- 7x DSA Keycaps
-- 4x M3x16 screws
-- 1x EC11 Rotary Encoder
-- 1x 0.96” 128x32 OLED display
-- 4x SK6812 Mini-E LEDs
-- 1x XIAO RP2040
-- 1x case
+- [Interactive PCB BOM](https://htmlpreview.github.io/?https://github.com/Chaos142/ChaosHackpad/blob/main/ibom.html)
+- 7x MX-Compatible Uniform Profile Keycaps
+- 4x M3x16 Screws
+- 1x 3D Printed Case
