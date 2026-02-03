@@ -3968,7 +3968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://files.seeedstudio.com/wiki/XIAO-RP2040/res/rp2040_datasheet.pdf"
 			(at 213.36 68.58 0)
 			(effects
 				(font

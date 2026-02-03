@@ -2095,7 +2095,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "C:/Users/joshf/Documents/Code/HackClubPCB/ChaosHackpad/Resources/Models/4960.step"
+		(model "${KIPRJMOD}/../Resources/Models/4960.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2673,7 +2673,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "C:/Users/joshf/Documents/Code/HackClubPCB/ChaosHackpad/Resources/Models/4960.step"
+		(model "${KIPRJMOD}/../Resources/Models/4960.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3821,7 +3821,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "C:/Users/joshf/Documents/Code/HackClubPCB/ChaosHackpad/Resources/Models/4960.step"
+		(model "${KIPRJMOD}/../Resources/Models/4960.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4114,7 +4114,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "C:/Users/joshf/Documents/Code/HackClubPCB/ChaosHackpad/Resources/Models/4960.step"
+		(model "${KIPRJMOD}/../Resources/Models/4960.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4826,7 +4826,7 @@
 				(xyz -0 -0 -0)
 			)
 		)
-		(model "C:/Users/joshf/Documents/Code/HackClubPCB/ChaosHackpad/Resources/Models/EC11E18244AU.stp"
+		(model "${KIPRJMOD}/../Resources/Models/EC11E18244AU.stp"
 			(offset
 				(xyz 7.5 -2.25 -12)
 			)
@@ -5378,7 +5378,7 @@
 			(uuid "4cd6adff-ac08-42df-89de-6b0517693616")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/joshf/Documents/Code/HackClubPCB/ChaosHackpad/Resources/Models/ER-OLEDM0.91-1W-I2C.step"
+		(model "${KIPRJMOD}/../Resources/Models/ER-OLEDM0.91-1W-I2C.step"
 			(offset
 				(xyz 36.5 -2 0)
 			)
@@ -5988,7 +5988,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://files.seeedstudio.com/wiki/XIAO-RP2040/res/rp2040_datasheet.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6587,7 +6587,7 @@
 				(xyz -90 0 0)
 			)
 		)
-		(model "C:/Users/joshf/Documents/Code/HackClubPCB/ChaosHackpad/Resources/Models/102010428.STEP"
+		(model "${KIPRJMOD}/../Resources/Models/102010428.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
