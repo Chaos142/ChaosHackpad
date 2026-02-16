@@ -490,7 +490,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../CAD/HackClubPCB.step",
+      "step": "../CAD/HackClubPCB.stl",
       "svg": "",
       "vrml": ""
     },
