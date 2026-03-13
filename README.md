@@ -35,8 +35,8 @@ Runs **CircuitPython** with **KMK firmware** on the **Seeed Studio XIAO RP2040**
 The included [firmware](firmware/main.py) file is a temporary firmware used for testing the hardware, and will be changed when I build the board.
 It provides basic key input, rotary encoder volume control, RGB lighting, and OLED display output.
 
-To install **CircuitPython**, follow (this guide from Seeed Studio)[https://wiki.seeedstudio.com/XIAO-RP2040-with-CircuitPython/].
-To install **KMK**, follow (this guide)[https://github.com/KMKfw/kmk_firmware/blob/main/docs/en/Getting_Started.md].
+To install **CircuitPython**, follow [this guide from Seeed Studio](https://wiki.seeedstudio.com/XIAO-RP2040-with-CircuitPython/).
+To install **KMK**, follow [this guide](https://github.com/KMKfw/kmk_firmware/blob/main/docs/en/Getting_Started.md).
 
 ## BOM
 - [bom.csv](bom.csv)
