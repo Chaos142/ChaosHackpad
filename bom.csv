@@ -1,0 +1,7 @@
+"Reference","Qty","Value","DNP","Footprint","Datasheet"
+"Brd1","1","SSD1306","","KiCad-SSD1306-0.91-OLED-4pin-128x32:SSD1306-0.91-OLED-4pin-128x32","https://www.buydisplay.com/download/manual/ER-OLEDM0.91-1_Datasheet.pdf"
+"D1,D2,D3,D4","4","SK6812MINI","","SK6812MINI-E:SK6812MINI-E_fixed","https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+"D5,D6,D7,D8,D9,D10,D11,D12","8","1N4148","","Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal","https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+"SW1","1","RotaryEncoder_Switch","","Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm","https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6727/alps_alps-s-a0008379064-1-1733314-1-13.pdf"
+"SW2,SW3,SW4,SW5,SW6,SW7,SW8","7","SW_Push_45deg","","CustomSwitches:SW_Cherry_MX_1.00u_PCB","~"
+"U1","1","XIAO-RP2040-DIP","","Seeed Studio XIAO Series Library:XIAO-RP2040-DIP","https://files.seeedstudio.com/wiki/XIAO-RP2040/res/rp2040_datasheet.pdf"

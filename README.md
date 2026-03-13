@@ -11,7 +11,15 @@
 Screws together using 4 M3 screws.   
 Comes in two pieces - the base and the top.  
 
-![CAD](media/cad.png)  
+**Top View**
+| Case Open | Case Closed |
+|:---------:|:-----------:|
+| ![Open Top View](media/OpenTopView.png) | ![Closed Top View](media/ClosedTopView.png) |
+
+**Side View**
+| Case Open | Case Closed |
+|:---------:|:-----------:|
+| ![Open Side View](media/CaseOpen.png) | ![Closed Top View](media/CaseClosed.png) |
 
 ### PCB
 
@@ -22,6 +30,7 @@ Comes in two pieces - the base and the top.
 ![Schematic](media/schematic.png)
 
 ## BOM
+- [bom.csv](bom.csv)
 - [Interactive PCB BOM](https://htmlpreview.github.io/?https://github.com/Chaos142/ChaosHackpad/blob/main/ibom.html)
 - 7x MX-Compatible Uniform Profile Keycaps
 - 4x M3x16 Screws
@@ -31,3 +40,6 @@ Comes in two pieces - the base and the top.
 - CustomSwitches.pretty: Cherry MX Switch Footprint with 3D Model
 - KiCad-SSD1306-0.91-OLED-4pin-128x32.pretty: [128x32 SSD1306 Footprint](https://github.com/gorbachev/KiCad-SSD1306-0.91-OLED-4pin-128x32.pretty)
 - [Seeed Studio XIAO Series Library](https://github.com/Seeed-Studio/OPL_Kicad_Library/tree/master/Seeed%20Studio%20XIAO%20Series%20Library)
+- [Fonts Folder](Resources/Fonts): Fonts used for the PCB Silkscreen
+- [Models Folder](Resources/Models): 3D models for the KiCad footprints
+- SK6812MINI-E: Symbol and footprint libraries for the NeoPixels
